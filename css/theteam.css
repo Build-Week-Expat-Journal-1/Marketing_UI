@@ -128,7 +128,7 @@ table {
   border-spacing: 0;
 }
 header {
-  background-color: #003c4b;
+  background-color: #556e3c;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 3%;
@@ -144,7 +144,7 @@ h1 {
   text-align: center;
   padding: 5%;
   font-size: 5rem;
-  color: #d2513f;
+  color: white;
 }
 @media (max-width: 500px) {
   h1 {
@@ -152,7 +152,7 @@ h1 {
   }
 }
 .images {
-  background: #69322d;
+  background: #a74332;
   margin-left: 20%;
   margin-right: 20%;
   display: flex;
@@ -164,7 +164,7 @@ h1 {
 .images a {
   text-align: center;
   font-size: 1.5rem;
-  color: #e6c3bf;
+  color: white;
   text-decoration: none;
 }
 @media (max-width: 500px) {
@@ -184,7 +184,7 @@ img {
   }
 }
 .mission {
-  color: #003c4b;
+  color: #4d2f1b;
   font-size: 1.5rem;
   margin-left: 20%;
   margin-right: 20%;
@@ -205,7 +205,7 @@ img {
   }
 }
 footer {
-  background-color: #003c4b;
+  background-color: #556e3c;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 3%;
@@ -221,7 +221,7 @@ footer {
   }
 }
 footer a {
-  color: #d2513f;
+  color: white;
   font-size: 2rem;
   text-align: center;
   text-decoration: none;

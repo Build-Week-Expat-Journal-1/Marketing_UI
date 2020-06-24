@@ -170,7 +170,6 @@ a:hover {
   }
 }
 .About {
-  background-color: #1b5e4b;
   width: 40%;
   line-height: 180%;
   margin-right: 10%;
@@ -184,11 +183,10 @@ a:hover {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: white;
   }
 }
 .example-profile {
-  background-color: #1b5e4b;
+  background-color: eggshell;
   width: 40%;
   padding: 10px;
   margin-left: 10%;
@@ -199,7 +197,6 @@ a:hover {
     margin-top: 10px;
     margin-bottyom: 10px;
     padding: 0;
-    background-color: white;
   }
 }
 .title {
