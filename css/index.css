@@ -231,7 +231,7 @@ nav {
   padding-left: 20%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 nav a {
@@ -240,9 +240,4 @@ nav a {
   border-radius: 20%;
   text-decoration: none;
   color: d2513f;
-}
-nav a a:hover {
-  background-color: #d25135;
-  color: #003c4b;
-  transition: 0.8s;
 }
