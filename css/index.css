@@ -135,6 +135,21 @@ body {
   background-color: 003c4b;
   color: d2513f;
 }
+/*nav{
+    text-decoration: none;
+    font-size: 1.4rem;
+    background-color: @main-color;
+    color: @text-color;
+    padding:2%;
+    .flex();
+      a{
+        color: @text-color;
+        text-decoration: none;
+      }
+      a:hover{
+        .hover();
+      }
+*/
 h1 {
   font-family: staatliches, arial;
   font-size: 5rem;
@@ -168,6 +183,6 @@ header {
   padding: 0 5% 5% 5%;
 }
 .content-row img {
-  width: 30%;
+  width: 40%;
   height: auto;
 }
