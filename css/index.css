@@ -167,22 +167,6 @@ p {
   justify-content: space-between;
   align-items: center;
 }
-nav {
-  font-family: montserrat, monospace;
-  font-size: 1.4rem;
-  padding-left: 20%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-nav a {
-  border: 1px solid peachpuff;
-  padding: 5%;
-  border-radius: 20%;
-  text-decoration: none;
-  color: d2513f;
-}
 header {
   display: flex;
   flex-direction: column;
@@ -198,7 +182,72 @@ header {
   align-items: center;
   padding: 0 5% 5% 5%;
 }
+@media (max-width: 500px) {
+  .content-row {
+    flex-direction: column;
+  }
+}
 .content-row img {
   width: 40%;
   height: auto;
+}
+@media (maz-width: 500px) {
+  .content-row img {
+    width: 80%;
+    height: auto;
+  }
+}
+.content-row img nav {
+  font-family: montserrat, monospace;
+  font-size: 1.4rem;
+  padding-left: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .content-row img nav {
+    flex-direction: column;
+    padding-left: 1%;
+  }
+}
+.content-row img nav a {
+  border: 1px solid #d2513f;
+  padding: 5%;
+  border-radius: 20%;
+  text-decoration: none;
+  color: d2513f;
+}
+@media (max-width: 500px) {
+  .content-row img nav a {
+    flex-direction: column;
+    padding-left: 1%;
+  }
+}
+.content-row img nav a a:hover {
+  background-color: #d25135;
+  color: #003c4b;
+  transition: 0.8s;
+}
+nav {
+  font-family: montserrat, monospace;
+  font-size: 1.4rem;
+  padding-left: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav a {
+  border: 1px solid #d2513f;
+  padding: 5%;
+  border-radius: 20%;
+  text-decoration: none;
+  color: d2513f;
+}
+nav a a:hover {
+  background-color: #d25135;
+  color: #003c4b;
+  transition: 0.8s;
 }

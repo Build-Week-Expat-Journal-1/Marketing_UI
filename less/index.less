@@ -186,25 +186,7 @@ p {
 
 }
 
-nav {
-    font-family: montserrat, monospace;
-    font-size: 1.4rem;
-    padding-left: 20%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 
-    a {
-        border: 1px solid peachpuff;
-        padding: 5%;
-        border-radius: 20%;
-        text-decoration: none;
-        color: d2513f;
-
-
-    }
-}
 
 header {
     display: flex;
@@ -222,9 +204,92 @@ header {
     align-items: center;
     padding: 0 5% 5% 5%;
 
+    @media(max-width:500px) {
+        flex-direction: column;
+
+    }
+
     img {
         width: 40%;
         height: auto;
+
+        @media(maz-width: 500px) {
+            width: 80%;
+            height: auto;
+        }
+
+        nav {
+            font-family: montserrat, monospace;
+            font-size: 1.4rem;
+            padding-left: 20%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+
+            @media(max-width: 500px) {
+                flex-direction: column;
+                padding-left: 1%;
+            }
+
+
+            a {
+                border: 1px solid #d2513f;
+                padding: 5%;
+                border-radius: 20%;
+                text-decoration: none;
+                color: d2513f;
+
+                @media(max-width: 500px) {
+                    flex-direction: column;
+                    padding-left: 1%;
+                }
+
+
+
+
+                a:hover {
+                    background-color: #d25135;
+                    color: #003c4b;
+                    //box-shadow: 0 0 15px 10px #d2513f;
+                    transition: .8s;
+                }
+
+
+            }
+        }
     }
 
+
+}
+
+nav {
+    font-family: montserrat, monospace;
+    font-size: 1.4rem;
+    padding-left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    a {
+        border: 1px solid #d2513f;
+        padding: 5%;
+        border-radius: 20%;
+        text-decoration: none;
+        color: d2513f;
+
+
+
+
+        a:hover {
+            background-color: #d25135;
+            color: #003c4b;
+            //box-shadow: 0 0 15px 10px #d2513f;
+            transition: .8s;
+        }
+
+
+    }
 }

@@ -1,217 +1,245 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
+ html,
+ body,
+ div,
+ span,
+ applet,
+ object,
+ iframe,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ a,
+ abbr,
+ acronym,
+ address,
+ big,
+ cite,
+ code,
+ del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ s,
+ samp,
+ small,
+ strike,
+ strong,
+ sub,
+ sup,
+ tt,
+ var,
+ b,
+ u,
+ i,
+ center,
+ dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+ fieldset,
+ form,
+ label,
+ legend,
+ table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+ article,
+ aside,
+ canvas,
+ details,
+ embed,
+ figure,
+ figcaption,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ output,
+ ruby,
+ section,
+ summary,
+ time,
+ mark,
+ audio,
+ video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
+ /* HTML5 display-role reset for older browsers */
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ section {
+     display: block;
+ }
 
-body {
-    line-height: 1;
-}
+ body {
+     line-height: 1;
+ }
 
-ol,
-ul {
-    list-style: none;
-}
+ ol,
+ ul {
+     list-style: none;
+ }
 
-blockquote,
-q {
-    quotes: none;
-}
+ blockquote,
+ q {
+     quotes: none;
+ }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
+ blockquote:before,
+ blockquote:after,
+ q:before,
+ q:after {
+     content: '';
+     content: none;
+ }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
-
-
-
-html {
-    font-size: 62.5%;
-}
-
-html,
-body {
-    height: 100%;
-    background-color: 003c4b;
-    color: d2513f;
-
-}
-
-h1 {
-    font-family: staatliches, arial;
-    font-size: 5rem;
-}
+ /* Set every element's box-sizing to border-box */
+ * {
+     box-sizing: border-box;
+ }
 
 
-h3 {
-    font-family: montserrat, monospace;
-    font-size: 2.5rem;
-}
 
-p {
-    font-family: montserrat, monospace;
-    font-size: 1.8rem;
-}
+ html {
+     font-size: 62.5%;
+ }
 
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 5% 0 0 5%;
-    align-items: left;
-    flex: 0 0 auto;
-}
+ html,
+ body {
+     height: 100%;
+     background-color: 003c4b;
+     color: pink;
 
-.pictures {
+ }
+
+ h1 {
+     font-family: staatliches, arial;
+     font-size: 5rem;
+ }
 
 
-    .portrait {
-        width: 75%;
-        height: auto;
-        box-shadow: 10px 10px 5px 01181e;
+ h3 {
+     font-family: montserrat, monospace;
+     font-size: 2.5rem;
+ }
 
-        @media (max-width: 500px) {
-            flex-direction: column;
-            justify-content: space-between;
-            width: 90%;
-            height: auto;
+ p {
+     font-family: montserrat, monospace;
+     font-size: 1.8rem;
+ }
 
-            p,
-                {
-                width: 100%;
-                margin: 0;
-                text-align: left;
-            }
-        }
+ header {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 5% 0 0 5%;
+     align-items: left;
+     flex: 0 0 auto;
+ }
 
-    }
+ .pictures {
 
-    flex: 0 0 auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 
-    padding: 5%;
+     .portrait {
+         width: 75%;
+         height: auto;
+         box-shadow: 10px 10px 5px 01181e;
 
-}
+         @media (max-width: 500px) {
+             flex-direction: column;
+             justify-content: space-between;
+             width: 90%;
+             height: auto;
 
-.imgWithCaption {
-    margin-right: 5%;
-    padding-top: 5%;
-}
+             p {
+                 width: 100%;
+                 margin: 0;
+                 text-align: left;
+             }
 
-.imgCaption {
-    align-items: left;
-    padding-top: 5%;
-}
+             //closes p
+         }
+
+         // closes media
+
+     }
+
+     // closes portrait
+ }
+
+ // closes picture
+
+ nav {
+     font-family: montserrat, monospace;
+     font-size: 1.4rem;
+     padding-left: 20%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+
+     a {
+         border: 1px solid d2513f;
+         padding: 5%;
+         border-radius: 20%;
+         text-decoration: none;
+         color: d2513f;
+
+
+     }
+ }
+
+ /*flex: 0 0 auto;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+
+ padding: 5%;
+
+ }*/
+
+ .imgWithCaption {
+     margin-right: 5%;
+     padding-top: 5%;
+ }
+
+ .imgCaption {
+     align-items: left;
+     padding-top: 5%;
+ }
