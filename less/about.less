@@ -142,9 +142,10 @@
 
  html,
  body {
-     height: 100%;
+     width: 100%;
+     height: auto;
      background-color: 003c4b;
-     color: pink;
+     color: #d2513f;
 
  }
 
@@ -170,16 +171,32 @@
      justify-content: space-between;
      padding: 5% 0 0 5%;
      align-items: left;
-     flex: 0 0 auto;
+
  }
 
  .pictures {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     padding: 5%;
+     align-items: center;
 
+     @media(max-width: 500px) {
+         flex-direction: column;
+         padding-left: 1%;
+     }
 
      .portrait {
-         width: 75%;
+         width: 90%;
          height: auto;
-         box-shadow: 10px 10px 5px 01181e;
+
+         // box-shadow: 10px 10px 5px 01181e;
+         @media(max-width: 500px) {
+             flex-direction: column;
+             padding-left: 10%;
+             width: 25%;
+             height: auto;
+         }
 
          @media (max-width: 500px) {
              flex-direction: column;
@@ -204,35 +221,50 @@
  }
 
  // closes picture
+ .designTeam {
+
+     font-family: staatliches, arial;
+     font-size: 5rem;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: space-between;
+
+     //align-items: left;
+
+ }
 
  nav {
      font-family: montserrat, monospace;
      font-size: 1.4rem;
-     padding-left: 20%;
+     padding: 5%;
      display: flex;
      flex-direction: row;
      justify-content: space-between;
      align-items: center;
+     width: 75%;
+     //height: auto;
+     padding-left: 30%;
+     //border: 1px solid white;
 
      a {
-         border: 1px solid d2513f;
+         border: 1px solid #d2513f;
          padding: 5%;
          border-radius: 20%;
          text-decoration: none;
-         color: d2513f;
+         color: #d2513f;
+         align-items: flex-start;
+
+         @media(max-width: 500px) {
+             flex-direction: column;
+             padding-left: 1%;
+         }
 
 
      }
  }
 
- /*flex: 0 0 auto;
- display: flex;
- flex-direction: row;
- flex-wrap: wrap;
 
- padding: 5%;
-
- }*/
 
  .imgWithCaption {
      margin-right: 5%;
