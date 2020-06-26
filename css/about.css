@@ -177,6 +177,7 @@ header {
 .pictures .portrait {
   width: 90%;
   height: auto;
+  box-shadow: 0px 0px 10px 10px #003c4b;
 }
 .pictures .portrait p {
   width: 100%;
@@ -213,7 +214,6 @@ nav a {
 nav a:hover {
   background-color: #d2513f;
   color: #3d7889;
-  box-shadow: 0px 0px 10px 10px #d2513f;
 }
 @media (max-width: 500px) {
   nav a {
