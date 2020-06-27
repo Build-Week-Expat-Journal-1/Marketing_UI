@@ -131,15 +131,18 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Shadows Into Light', cursive;
   margin-bottom: 5%;
   background-color: #a74332;
 }
 h1 {
   font-size: 4rem;
   color: white;
+  font-family: 'Shadows Into Light', cursive;
 }
 nav {
   font-size: 2rem;
+  font-family: 'Shadows Into Light', cursive;
 }
 @media (max-width: 500px) {
   nav {
@@ -151,9 +154,10 @@ nav {
 a {
   text-decoration: none;
   color: white;
+  font-family: 'Shadows Into Light', cursive;
 }
 a:hover {
-  color: #556e3c;
+  color: #4d2f1b;
 }
 .main {
   display: flex;
@@ -174,6 +178,7 @@ a:hover {
   line-height: 180%;
   margin-right: 10%;
   padding: 20px;
+  font-family: 'Pangolin', cursive;
   font-size: 1.2rem;
   color: #4d2f1b;
 }
@@ -189,6 +194,7 @@ a:hover {
   background-color: eggshell;
   width: 40%;
   padding: 10px;
+  font-family: 'Pangolin', cursive;
   margin-left: 10%;
 }
 @media (max-width: 500px) {
@@ -204,6 +210,7 @@ a:hover {
   color: #556e3c;
   text-align: center;
   margin: 10px;
+  font-family: 'Shadows Into Light', cursive;
 }
 footer {
   text-align: center;
@@ -211,4 +218,12 @@ footer {
   color: white;
   width: 100%;
   background-color: #a74332;
+  font-family: 'Shadows Into Light', cursive;
+}
+footer a:hover {
+  color: #4d2f1b;
+}
+footer button a {
+  font-size: 1.5rem;
+  color: #a74332;
 }
