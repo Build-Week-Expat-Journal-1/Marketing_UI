@@ -175,12 +175,20 @@ a:hover {
 }
 .About {
   width: 40%;
-  line-height: 180%;
-  margin-right: 10%;
-  padding: 20px;
+  line-height: 250%;
+  margin-left: 5%;
+  margin-right: 5%;
   font-family: 'Pangolin', cursive;
+  align-self: flex-start;
   font-size: 1.2rem;
   color: #4d2f1b;
+}
+.About .title {
+  font-size: 3rem;
+  color: #556e3c;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Shadows Into Light', cursive;
 }
 @media (max-width: 500px) {
   .About {
@@ -193,9 +201,18 @@ a:hover {
 .example-profile {
   background-color: eggshell;
   width: 40%;
-  padding: 10px;
   font-family: 'Pangolin', cursive;
+  text-align: center;
   margin-left: 10%;
+  align-self: flex-end;
+}
+.example-profile .title {
+  font-size: 3rem;
+  color: #556e3c;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Shadows Into Light', cursive;
+  width: 40%;
 }
 @media (max-width: 500px) {
   .example-profile {
@@ -204,13 +221,6 @@ a:hover {
     margin-bottom: 10px;
     padding: 0;
   }
-}
-.title {
-  font-size: 3rem;
-  color: #556e3c;
-  text-align: center;
-  margin: 10px;
-  font-family: 'Shadows Into Light', cursive;
 }
 footer {
   text-align: center;
